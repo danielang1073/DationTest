@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+html,
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
+
+.d-flex a {
+  color: #00adef;
+}
+
+.formulario1 h1 {
+  color: #004883;
+}
+.imagen img {
+  width: 200px;
+  height: 130px;
+  margin: 40px;
+  border-radius: 20px;
+}
+
+.hola {
+  border: solid;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #004883;
+}
+@media (max-width: 768px) {
+  .social_icon span {
+    font-size: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .social_icon span {
+    font-size: 30px;
+  }
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hola1 h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #004883;
+  color: black;
+  border: 0 !important;
+}
+
+.form-control {
+  border-color: gray;
+  height: 8vh;
+  width: 70%;
+  border-radius: 15px;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.title-Session {
+  color: white;
+  font-weight: revert;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.asd {
+  background-color: #00adef;
+}
+
+.login {
+  align-items: center;
+  border-radius: 50px;
+  color: white;
+  background-color: #00adef;
+  height: 8vh;
+  width: 70%;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  .login {
+    font-size: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .login {
+    font-size: 13px;
+  }
+}
+
+.formulario1 h3 {
+  margin: 25px;
+}
+
+.formulario {
+  background-color: white;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.formulario1 {
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  background-color: #004883;
+  justify-content: center;
+  text-align: center;
+}
+
+.registrarme {
+  color: #00adef;
+  border-color: #00adef;
+  display: grid;
+  align-items: center;
+  border-radius: 50px;
+  height: 8vh;
+  width: 70%;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  .registrarme {
+    font-size: 20px;
+  }
+}
+@media (max-width: 420px) {
+  .registrarme {
+    font-size: 13px;
+  }
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}

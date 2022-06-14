@@ -1,0 +1,135 @@
+a {
+  text-decoration: none;
+}
+
+.home {
+  height: 50px;
+}
+
+.button {
+  display: none;
+}
+
+.formulario1 button {
+  position: absolute;
+  right: 85%;
+  color: white;
+  background-color: #004883;
+  border: none;
+  font-size: 50px;
+}
+@media (max-width: 768px) {
+  .formulario1 button {
+    font-size: 40px;
+    right: 78%;
+  }
+}
+@media (max-width: 420px) {
+  .formulario1 button {
+    font-size: 30px;
+    right: 78%;
+    top: 9%;
+  }
+}
+
+.title-Sessionn {
+  color: white;
+  font-weight: revert;
+}
+@media (max-width: 768px) {
+  .title-Sessionn {
+    font-size: 18px;
+  }
+}
+@media (max-width: 420px) {
+  .title-Sessionn {
+    font-size: 11px;
+  }
+}
+
+.card-text {
+  border-radius: 20px;
+}
+
+.card-sl {
+  min-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 768px) {
+  .card-sl {
+    min-height: 350px;
+    min-width: 650px;
+  }
+}
+@media (max-width: 420px) {
+  .card-sl {
+    min-height: 300px;
+    min-width: 200px;
+  }
+}
+
+.card-image img {
+  max-height: 100%;
+  width: 100%;
+  border-radius: 20px 20px 0px 0;
+}
+
+.card-action {
+  position: relative;
+  float: right;
+  margin-top: -25px;
+  margin-right: 20px;
+  z-index: 2;
+  color: #e26d5c;
+  background: #fff;
+  border-radius: 100%;
+  padding: 15px;
+  font-size: 15px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-click {
+  position: relative;
+  float: right;
+  margin-top: -25px;
+  margin-right: 20px;
+  z-index: 2;
+  color: #fff;
+  background: #e26d5c;
+  border-radius: 100%;
+  padding: 15px;
+  font-size: 15px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list{
+  list-style:none
+}
+
+.card-action:hover {
+  color: #fff;
+  background: #e26d5c;
+  -webkit-animation: pulse 1.5s infinite;
+}
+
+.card-click:hover {
+  color: #e26d5c;
+  background: #fff;
+  -webkit-animation: pulse 1.5s infinite;
+}
+
+.card-heading {
+  font-size: 18px;
+  font-weight: bold;
+  background: #fff;
+  padding: 10px 15px;
+}
+
+.card-text {
+  padding: 10px 15px;
+  background: #fff;
+  font-size: 14px;
+  align-items: center;
+  color: #636262;
+}
